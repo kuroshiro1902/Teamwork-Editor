@@ -1,0 +1,12 @@
+:root {
+  --dark: rgb(30, 30, 30);
+  --vs-bg: rgb(40, 42, 54);
+}
+
+.monaco-editor {
+  padding-top: 8px;
+}
+
+.w-full {
+  width: 100%;
+}

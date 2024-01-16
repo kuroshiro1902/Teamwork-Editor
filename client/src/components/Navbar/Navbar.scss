@@ -1,0 +1,36 @@
+#Navbar .btn-group {
+  overflow-x: auto;
+  border-radius: unset;
+  label.btn {
+    position: relative;
+    border-radius: unset;
+    width: 140px;
+    height: 30px;
+    background-color: var(--vs-bg);
+    border-bottom: unset;
+    font-size: 14px;
+    // text overflow
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    //
+    transition: background-color 0.2s;
+  }
+  input:checked + label.btn {
+    background-color: var(--dark);
+  }
+  button.btn-close {
+    z-index: 1;
+    position: absolute;
+    right: 4px;
+    background-color: inherit;
+    width: 6px;
+    height: 6px;
+    box-sizing: content-box;
+    top: 50%;
+    transform: translateY(-50%);
+    &:hover {
+      background-color: #fff;
+    }
+  }
+}

@@ -1,0 +1,33 @@
+#Sidebar {
+  min-width: 260px;
+  color: #fff;
+  font-size: 14px;
+  overflow: auto;
+  padding: 4px 8px;
+  .child {
+    padding-left: 10px;
+    margin-left: 10px;
+    border-left: 1px solid #ffffff80;
+    margin-top: 6px;
+  }
+  summary,
+  .file {
+    padding: 0 4px;
+    display: flex;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 6px;
+    margin-bottom: 0;
+    border: 1px solid transparent;
+    transition: border-color 0.2s, background-color 0.2s;
+    &:hover {
+      border-color: #646cff;
+      background-color: #ffffff25;
+    }
+    a {
+      display: block;
+      color: inherit;
+      width: 100%;
+    }
+  }
+}
